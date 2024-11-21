@@ -1,0 +1,17 @@
+# AWS関連
+boto3>=1.34.11
+urllib3<2
+
+# データベース関連
+SQLAlchemy>=2.0,<3
+PyMySQL>=1.0,<2
+
+# Webフレームワーク
+fastapi
+uvicorn
+
+# Lambda連携
+mangum
+
+# その他
+setuptools

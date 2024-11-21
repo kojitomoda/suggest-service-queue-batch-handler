@@ -1,0 +1,6 @@
+__pycache__/
+.DS_Store
+samconfig.toml
+build.toml
+.aws-sam/
+.idea

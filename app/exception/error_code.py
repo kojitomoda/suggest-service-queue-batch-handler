@@ -1,0 +1,9 @@
+from enum import Enum
+
+class ErrorCode(Enum):
+    SUCCESS = 200
+
+    INVALID_PROXY_SERVER_CREDENTIALS = 407
+    INTERNAL_SERVER_ERROR = 500
+    PROXY_CONNECTION_ERROR = 10
+    PROXY_RESTRICTED = 20
